@@ -17,11 +17,39 @@ svg{
   margin-top: 30px;
   margin-right: 310px;
 }
+p{
+  color: White;
+  color: hsl(217, 12%, 63%);
+}
+
+.thankYou {
+  display: none;
+  margin: 200px auto;
+  color: White;
+  color: hsl(217, 12%, 63%);
+  width: 380px;
+  height: 380px;
+  background-color: blue;
+  background-color: hsl(213,19%, 18%);
+  border-radius: 25px;
+  text-align: center;
+}
+.thankYou p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.thank-you-img{
+  margin-top: 30px;
+}
+
 .title{
   text-align: left;
   padding-left: 20px;
 }
 .attribution {
+  margin-top: 10px;
+  color: hsl(217, 12%, 63%);
   font-size: 11px;
   text-align: center;
 }
@@ -65,6 +93,17 @@ svg{
   background: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
 }
+#ratingScore{
+  background-color: hsl(213, 25%, 25%);
+  color:hsl(25, 97%, 53%);
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 20px;
+  height: 30px;
+  width: 180px;
+  margin-left: 100px;
+  padding-top: 10px;
+}
 .stars{
   text-align: left;
   padding: 10px;
@@ -87,9 +126,17 @@ svg{
 }
 @media screen and (max-width: 600px) {
   .container{
-    width: 350px;
-    margin-top: 100px;
-    margin-left: 10px;
+    width: 340px;
+    margin: 150px auto;
+  }
+  #ratingScore{
+    margin:15px auto;
+  }
+  .thankYou{
+    width: 340px;
+    height: 400px;
+    margin-top: 150px;
+    align-items: center;
   }
   svg{
     margin-left: 20px;
@@ -103,7 +150,6 @@ svg{
     height: 45px;
   }
 }
-
 .click-color{
   background-color: hsl(217, 12%, 63%);
   color: hsl(0, 0%, 100%);
