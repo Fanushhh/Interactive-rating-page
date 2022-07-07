@@ -30,15 +30,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop1.jpg)
+![](./desktop1.jpg)
 
-![](./screenshots/desktop2.jpg)
+![](./desktop2.jpg)
 
-![](./screenshots/desktop3.jpg)
+![](./desktop3.jpg)
 
-![](./screenshots/mobile1.jpg)
+![](./mobile1.jpg)
 
-![](./screenshots/mobile2.jpg)
+![](./mobile2.jpg)
 
 
 
